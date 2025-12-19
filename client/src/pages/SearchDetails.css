@@ -1,0 +1,59 @@
+.details h2 {
+  font-size: 42px;
+  margin-bottom: 6px;
+}
+
+.edit-bar {
+  display: flex;
+  gap: 14px;
+  margin: 24px 0 36px;
+}
+
+.edit-bar input {
+  flex: 1;
+  padding: 16px 18px;
+  border-radius: 16px;
+
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(2,6,23,0.7);
+  color: #e5e7eb;
+}
+
+.edit-bar button {
+  padding: 16px 22px;
+  border-radius: 16px;
+  border: none;
+
+  background:
+    linear-gradient(90deg, #a855f7, #6366f1);
+  color: white;
+  font-weight: 700;
+
+  box-shadow:
+    0 12px 30px rgba(168,85,247,0.45);
+}
+
+.result-item {
+  padding: 22px;
+  margin-bottom: 18px;
+
+  border-radius: 22px;
+  border: 1px solid rgba(255,255,255,0.08);
+
+  background:
+    linear-gradient(180deg, rgba(2,6,23,0.85), rgba(2,6,23,0.6));
+
+  box-shadow:
+    0 20px 40px rgba(0,0,0,0.45);
+}
+
+.result-item a {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.result-snippet {
+  margin-top: 10px;
+  color: #9ca3af;
+  line-height: 1.5;
+}

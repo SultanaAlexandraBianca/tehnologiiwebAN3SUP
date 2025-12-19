@@ -1,0 +1,60 @@
+/* =========================
+   RESET + BASE
+========================= */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #e5e7eb;
+
+  /* 🌌 BACKGROUND CINEMATIC */
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(56,189,248,0.25), transparent 60%),
+    radial-gradient(800px 500px at 90% 10%, rgba(168,85,247,0.25), transparent 55%),
+    radial-gradient(700px 400px at 50% 100%, rgba(34,197,94,0.18), transparent 60%),
+    linear-gradient(180deg, #020617, #020617);
+}
+
+a {
+  color: #93c5fd;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  font-family: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+input, button {
+  outline: none;
+}
+
+/* subtle text */
+.subtle {
+  color: #9ca3af;
+}
+
+/* error */
+.error {
+  color: #f87171;
+  margin-top: 12px;
+}
